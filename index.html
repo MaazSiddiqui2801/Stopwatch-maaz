@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <style type="text/css">
+		
+    body{
+        background-image:url(back.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .content{
+        background: white;
+        width: 50%;
+        padding: 40px;
+        margin: 100px auto;
+        font-family: calibri;
+        border-radius: 10px;
+    }
+
+    p{
+        font-size: 25px;
+        color: black;
+    }
+
+</style>
+</head>
+<body>
+    <img src="back.jpg" alt="Stopwatch">
+    
+  <h1 id="timer">00 : 00 . 000</h1>
+  <div>
+    <button id="toggle">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="stopwatch.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
